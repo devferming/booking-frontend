@@ -5,7 +5,7 @@ import './styles/OtherHotels.css'
 
 const OtherHotels = ( { cityId, hotelId } ) => {
 
-  const url = `http://localhost:8080/hotels?cityId=${cityId}`
+  const url = `https://booking-api-jnv4.onrender.com/hotels?cityId=${cityId}`
   const [ hotels, getHotels ] = useFecth(url)
 
   useEffect(() => {
