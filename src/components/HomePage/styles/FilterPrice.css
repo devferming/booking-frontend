@@ -1,0 +1,54 @@
+.filter_price_container {
+  height: 2.5em;
+  margin-right: 2em;
+}
+
+.filter_price_container_form {
+  display: flex;
+}
+
+.filter_price_container_form_input_lower_price,
+.filter_price_container_form_input_higher_price {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  border: none;
+  padding: 0 0.7em;
+  width: 9em;
+  height: 2.5em;
+  background-color: white;
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.filter_price_container_form_input_higher_price {
+  border-radius: 0;
+}
+
+.filter_price_container_form_input_lower_price {
+  margin-right: 0.3em;
+}
+
+.filter_price_container_form_button {
+  box-sizing: border-box;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  border: none;
+  padding: 0.5em 0;
+  width: 8em;
+  height: 2.5em;
+  background-color: #616161;
+  color: white;
+  border-radius: 0 0.5em 0.5em 0;
+  transition: transform 100ms ease,
+              box-shadow 100ms ease;
+}
+
+.filter_price_container_form_button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 0.5em #0005;
+}

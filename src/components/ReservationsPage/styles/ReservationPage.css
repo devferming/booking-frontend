@@ -1,0 +1,19 @@
+.reservation {
+  padding: 5em 0 0 0;
+  width: 100%;
+  margin-bottom: 3em;
+  padding-top: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__cards_container {
+  margin-top: 2em;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}

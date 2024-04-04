@@ -1,0 +1,41 @@
+.header_shared {
+  width: 100%;
+  height: 4em;
+  background-color: #fa4006;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+
+.header_shared_h1_link {
+  color: white;
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+.header_shared_nav {
+  width: 100%;
+  padding: 0  2em;
+}
+
+.header_shared_nav_ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_shared_nav_ul_li {
+  padding-left: 1em;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.header_shared_nav_ul_li:hover {
+  transform: scale(1.05);
+}
+
+.header_shared_nav_ul_li_link {
+  color: white;
+  text-decoration: none;
+}
