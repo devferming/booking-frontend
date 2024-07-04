@@ -4,7 +4,7 @@ import './styles/FilterCities.css'
 
 const FilterCities = ({ setidCity, idCity }) => {
 
-  const url = 'https://booking-api-jnv4.onrender.com/cities' //https://hotels-api.academlo.tech/cities
+  const url = 'https://booking-app-api-zckc.onrender.com/cities' //https://hotels-api.academlo.tech/cities
   const [cities, getCities] = useFecth(url)
 
   useEffect(() => {

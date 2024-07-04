@@ -13,7 +13,7 @@ const HotelInfoPage = () => {
 
   const { id } = useParams()
 
-  const url = `https://booking-api-jnv4.onrender.com/hotels/${id}`
+  const url = `https://booking-app-api-zckc.onrender.com/hotels/${id}`
   const [hotel, getHotel] = useFecth(url)
   const stars = '⭐'.repeat(Number(hotel?.rating))
 

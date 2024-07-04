@@ -5,7 +5,7 @@ import getConfigToken from "../services/getConfigToken"
 const useCrud = () => {
 
   const [response, setResponse] = useState()
-  const baseUrl = 'https://booking-api-jnv4.onrender.com'
+  const baseUrl = 'https://booking-app-api-zckc.onrender.com'
 
   //GED
   const getApi = (path) => {

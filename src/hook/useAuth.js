@@ -14,7 +14,7 @@ const useAuth = () => {
   
   //Register
   const createNewUser = (data) => {
-    const url = 'https://booking-api-jnv4.onrender.com/users'
+    const url = 'https://booking-app-api-zckc.onrender.com/users'
     axios.post(url, data)
     .then(res => console.log(res.data))
     .catch(err => console.log(err))
@@ -22,7 +22,7 @@ const useAuth = () => {
 
   //Login
   const loginUser = (data) => {
-    const url = 'https://booking-api-jnv4.onrender.com/users/login'
+    const url = 'https://booking-app-api-zckc.onrender.com/users/login'
     axios.post(url, data)
     .then(res => {
       setCrrLogin({

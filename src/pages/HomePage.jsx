@@ -22,7 +22,7 @@ const HomePage = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    const url = 'https://booking-api-jnv4.onrender.com/hotels'
+    const url = 'https://booking-app-api-zckc.onrender.com/hotels'
     dispatch(getHotelsThunk(url))
   }, [])
 
